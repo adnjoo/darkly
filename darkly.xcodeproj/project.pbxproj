@@ -14,6 +14,7 @@
 		8D24CF572CA1AF79008FFD02 /* darklyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D24CF562CA1AF79008FFD02 /* darklyTests.swift */; };
 		8D24CF612CA1AF79008FFD02 /* darklyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D24CF602CA1AF79008FFD02 /* darklyUITests.swift */; };
 		8D24CF632CA1AF79008FFD02 /* darklyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D24CF622CA1AF79008FFD02 /* darklyUITestsLaunchTests.swift */; };
+		8D24CF702CA1B16D008FFD02 /* sample.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8D24CF6F2CA1B16D008FFD02 /* sample.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		8D24CF5C2CA1AF79008FFD02 /* darklyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = darklyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D24CF602CA1AF79008FFD02 /* darklyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = darklyUITests.swift; sourceTree = "<group>"; };
 		8D24CF622CA1AF79008FFD02 /* darklyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = darklyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8D24CF6F2CA1B16D008FFD02 /* sample.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = sample.pdf; path = ../../../Downloads/sample.pdf; sourceTree = "<group>"; };
+		8D24CF712CA1B173008FFD02 /* sample.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = sample.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +98,7 @@
 		8D24CF432CA1AF78008FFD02 /* darkly */ = {
 			isa = PBXGroup;
 			children = (
+				8D24CF712CA1B173008FFD02 /* sample.pdf */,
 				8D24CF442CA1AF78008FFD02 /* darklyApp.swift */,
 				8D24CF462CA1AF78008FFD02 /* ContentView.swift */,
 				8D24CF482CA1AF79008FFD02 /* Assets.xcassets */,
@@ -125,6 +129,7 @@
 			children = (
 				8D24CF602CA1AF79008FFD02 /* darklyUITests.swift */,
 				8D24CF622CA1AF79008FFD02 /* darklyUITestsLaunchTests.swift */,
+				8D24CF6F2CA1B16D008FFD02 /* sample.pdf */,
 			);
 			path = darklyUITests;
 			sourceTree = "<group>";
@@ -235,6 +240,7 @@
 			files = (
 				8D24CF4C2CA1AF79008FFD02 /* Preview Assets.xcassets in Resources */,
 				8D24CF492CA1AF79008FFD02 /* Assets.xcassets in Resources */,
+				8D24CF702CA1B16D008FFD02 /* sample.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
