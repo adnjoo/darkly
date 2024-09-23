@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D24CF452CA1AF78008FFD02 /* darklyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D24CF442CA1AF78008FFD02 /* darklyApp.swift */; };
+		8D24CF472CA1AF78008FFD02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D24CF462CA1AF78008FFD02 /* ContentView.swift */; };
+		8D24CF492CA1AF79008FFD02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D24CF482CA1AF79008FFD02 /* Assets.xcassets */; };
+		8D24CF4C2CA1AF79008FFD02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D24CF4B2CA1AF79008FFD02 /* Preview Assets.xcassets */; };
+		8D24CF572CA1AF79008FFD02 /* darklyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D24CF562CA1AF79008FFD02 /* darklyTests.swift */; };
+		8D24CF612CA1AF79008FFD02 /* darklyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D24CF602CA1AF79008FFD02 /* darklyUITests.swift */; };
+		8D24CF632CA1AF79008FFD02 /* darklyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D24CF622CA1AF79008FFD02 /* darklyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D24CF532CA1AF79008FFD02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D24CF392CA1AF77008FFD02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D24CF402CA1AF78008FFD02;
+			remoteInfo = darkly;
+		};
+		8D24CF5D2CA1AF79008FFD02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D24CF392CA1AF77008FFD02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D24CF402CA1AF78008FFD02;
+			remoteInfo = darkly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D24CF412CA1AF78008FFD02 /* darkly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = darkly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D24CF442CA1AF78008FFD02 /* darklyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = darklyApp.swift; sourceTree = "<group>"; };
+		8D24CF462CA1AF78008FFD02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8D24CF482CA1AF79008FFD02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D24CF4B2CA1AF79008FFD02 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8D24CF4D2CA1AF79008FFD02 /* darkly.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = darkly.entitlements; sourceTree = "<group>"; };
+		8D24CF522CA1AF79008FFD02 /* darklyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = darklyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D24CF562CA1AF79008FFD02 /* darklyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = darklyTests.swift; sourceTree = "<group>"; };
+		8D24CF5C2CA1AF79008FFD02 /* darklyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = darklyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D24CF602CA1AF79008FFD02 /* darklyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = darklyUITests.swift; sourceTree = "<group>"; };
+		8D24CF622CA1AF79008FFD02 /* darklyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = darklyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D24CF3E2CA1AF78008FFD02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D24CF4F2CA1AF79008FFD02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D24CF592CA1AF79008FFD02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D24CF382CA1AF77008FFD02 = {
+			isa = PBXGroup;
+			children = (
+				8D24CF432CA1AF78008FFD02 /* darkly */,
+				8D24CF552CA1AF79008FFD02 /* darklyTests */,
+				8D24CF5F2CA1AF79008FFD02 /* darklyUITests */,
+				8D24CF422CA1AF78008FFD02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D24CF422CA1AF78008FFD02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D24CF412CA1AF78008FFD02 /* darkly.app */,
+				8D24CF522CA1AF79008FFD02 /* darklyTests.xctest */,
+				8D24CF5C2CA1AF79008FFD02 /* darklyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D24CF432CA1AF78008FFD02 /* darkly */ = {
+			isa = PBXGroup;
+			children = (
+				8D24CF442CA1AF78008FFD02 /* darklyApp.swift */,
+				8D24CF462CA1AF78008FFD02 /* ContentView.swift */,
+				8D24CF482CA1AF79008FFD02 /* Assets.xcassets */,
+				8D24CF4D2CA1AF79008FFD02 /* darkly.entitlements */,
+				8D24CF4A2CA1AF79008FFD02 /* Preview Content */,
+			);
+			path = darkly;
+			sourceTree = "<group>";
+		};
+		8D24CF4A2CA1AF79008FFD02 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8D24CF4B2CA1AF79008FFD02 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8D24CF552CA1AF79008FFD02 /* darklyTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D24CF562CA1AF79008FFD02 /* darklyTests.swift */,
+			);
+			path = darklyTests;
+			sourceTree = "<group>";
+		};
+		8D24CF5F2CA1AF79008FFD02 /* darklyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8D24CF602CA1AF79008FFD02 /* darklyUITests.swift */,
+				8D24CF622CA1AF79008FFD02 /* darklyUITestsLaunchTests.swift */,
+			);
+			path = darklyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D24CF402CA1AF78008FFD02 /* darkly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D24CF662CA1AF79008FFD02 /* Build configuration list for PBXNativeTarget "darkly" */;
+			buildPhases = (
+				8D24CF3D2CA1AF78008FFD02 /* Sources */,
+				8D24CF3E2CA1AF78008FFD02 /* Frameworks */,
+				8D24CF3F2CA1AF78008FFD02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = darkly;
+			productName = darkly;
+			productReference = 8D24CF412CA1AF78008FFD02 /* darkly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D24CF512CA1AF79008FFD02 /* darklyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D24CF692CA1AF79008FFD02 /* Build configuration list for PBXNativeTarget "darklyTests" */;
+			buildPhases = (
+				8D24CF4E2CA1AF79008FFD02 /* Sources */,
+				8D24CF4F2CA1AF79008FFD02 /* Frameworks */,
+				8D24CF502CA1AF79008FFD02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D24CF542CA1AF79008FFD02 /* PBXTargetDependency */,
+			);
+			name = darklyTests;
+			productName = darklyTests;
+			productReference = 8D24CF522CA1AF79008FFD02 /* darklyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8D24CF5B2CA1AF79008FFD02 /* darklyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D24CF6C2CA1AF79008FFD02 /* Build configuration list for PBXNativeTarget "darklyUITests" */;
+			buildPhases = (
+				8D24CF582CA1AF79008FFD02 /* Sources */,
+				8D24CF592CA1AF79008FFD02 /* Frameworks */,
+				8D24CF5A2CA1AF79008FFD02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D24CF5E2CA1AF79008FFD02 /* PBXTargetDependency */,
+			);
+			name = darklyUITests;
+			productName = darklyUITests;
+			productReference = 8D24CF5C2CA1AF79008FFD02 /* darklyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D24CF392CA1AF77008FFD02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					8D24CF402CA1AF78008FFD02 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					8D24CF512CA1AF79008FFD02 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 8D24CF402CA1AF78008FFD02;
+					};
+					8D24CF5B2CA1AF79008FFD02 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 8D24CF402CA1AF78008FFD02;
+					};
+				};
+			};
+			buildConfigurationList = 8D24CF3C2CA1AF77008FFD02 /* Build configuration list for PBXProject "darkly" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D24CF382CA1AF77008FFD02;
+			productRefGroup = 8D24CF422CA1AF78008FFD02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D24CF402CA1AF78008FFD02 /* darkly */,
+				8D24CF512CA1AF79008FFD02 /* darklyTests */,
+				8D24CF5B2CA1AF79008FFD02 /* darklyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D24CF3F2CA1AF78008FFD02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D24CF4C2CA1AF79008FFD02 /* Preview Assets.xcassets in Resources */,
+				8D24CF492CA1AF79008FFD02 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D24CF502CA1AF79008FFD02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D24CF5A2CA1AF79008FFD02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D24CF3D2CA1AF78008FFD02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D24CF472CA1AF78008FFD02 /* ContentView.swift in Sources */,
+				8D24CF452CA1AF78008FFD02 /* darklyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D24CF4E2CA1AF79008FFD02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D24CF572CA1AF79008FFD02 /* darklyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D24CF582CA1AF79008FFD02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D24CF612CA1AF79008FFD02 /* darklyUITests.swift in Sources */,
+				8D24CF632CA1AF79008FFD02 /* darklyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D24CF542CA1AF79008FFD02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D24CF402CA1AF78008FFD02 /* darkly */;
+			targetProxy = 8D24CF532CA1AF79008FFD02 /* PBXContainerItemProxy */;
+		};
+		8D24CF5E2CA1AF79008FFD02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D24CF402CA1AF78008FFD02 /* darkly */;
+			targetProxy = 8D24CF5D2CA1AF79008FFD02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8D24CF642CA1AF79008FFD02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D24CF652CA1AF79008FFD02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		8D24CF672CA1AF79008FFD02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = darkly/darkly.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"darkly/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = heybamboo.darkly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8D24CF682CA1AF79008FFD02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = darkly/darkly.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"darkly/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = heybamboo.darkly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8D24CF6A2CA1AF79008FFD02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = heybamboo.darklyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/darkly.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/darkly";
+			};
+			name = Debug;
+		};
+		8D24CF6B2CA1AF79008FFD02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = heybamboo.darklyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/darkly.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/darkly";
+			};
+			name = Release;
+		};
+		8D24CF6D2CA1AF79008FFD02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = heybamboo.darklyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = darkly;
+			};
+			name = Debug;
+		};
+		8D24CF6E2CA1AF79008FFD02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = heybamboo.darklyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = darkly;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D24CF3C2CA1AF77008FFD02 /* Build configuration list for PBXProject "darkly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D24CF642CA1AF79008FFD02 /* Debug */,
+				8D24CF652CA1AF79008FFD02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D24CF662CA1AF79008FFD02 /* Build configuration list for PBXNativeTarget "darkly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D24CF672CA1AF79008FFD02 /* Debug */,
+				8D24CF682CA1AF79008FFD02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D24CF692CA1AF79008FFD02 /* Build configuration list for PBXNativeTarget "darklyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D24CF6A2CA1AF79008FFD02 /* Debug */,
+				8D24CF6B2CA1AF79008FFD02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D24CF6C2CA1AF79008FFD02 /* Build configuration list for PBXNativeTarget "darklyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D24CF6D2CA1AF79008FFD02 /* Debug */,
+				8D24CF6E2CA1AF79008FFD02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D24CF392CA1AF77008FFD02 /* Project object */;
+}
